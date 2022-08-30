@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_f"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/gallery_f"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/slideshow_f"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+    </group>
+
+    <!--To separate menu items by a divider line,
+        only group items with a unique id, like this:-->
+    <group
+        android:id="@+id/group_two"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/share_f"
+            android:icon="@drawable/ic_baseline_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/privacy_f"
+            android:icon="@drawable/ic_baseline_privacy"
+            android:title="Privacy Policy" />
+    </group>
+</menu>
